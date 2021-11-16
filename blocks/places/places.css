@@ -1,0 +1,23 @@
+.places {
+  font-family: "Inter", Arial, sans-serif;
+  padding: 46px 0 46px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+  .places {
+    padding: 46px 48px 46px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    padding: 44px 24px 44px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    padding: 32px 0 32px;
+  }
+}

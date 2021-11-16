@@ -1,0 +1,9 @@
+.place__artist-heading {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
