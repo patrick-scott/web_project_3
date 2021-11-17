@@ -1,0 +1,21 @@
+.lead__image {
+  max-width: 984px;
+  filter: grayscale(100%);
+  margin: auto;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 100%;
+  }
+}
+
+/*update this to 320*/
+@media screen and (max-width: 400px) {
+  .lead__image {
+    max-width: 100%;
+    padding-bottom: 88px;
+  }
+
+}
