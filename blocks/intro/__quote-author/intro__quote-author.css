@@ -1,0 +1,11 @@
+.intro__quote-author {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__quote-author {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+

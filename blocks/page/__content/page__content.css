@@ -5,6 +5,5 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /*Не забывайте про прижатие подвала в можно лучше*/
   margin: 0 auto;
 }

@@ -8,13 +8,16 @@
     "image text"
     "button text";
 }
+/*
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1200px) {
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
   }
 }
+
+/*
 
 @media screen and (max-width: 984px) {
   .place {
@@ -24,7 +27,9 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+*/
+
+@media screen and (max-width: 1280px) {
   .place {
     grid-template-areas:
       "title title"
@@ -35,7 +40,9 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+
+
+@media screen and (max-width: 768px) {
   .place {
     grid-template-areas:
       "title"
@@ -48,3 +55,4 @@
     grid-gap: 32px;
   }
 }
+
