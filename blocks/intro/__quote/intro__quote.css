@@ -8,8 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .intro__quote {
-    padding-left: 16px;
-    padding-right: 16px;
+    line-height: 30px;
   }
 }
 

@@ -1,0 +1,12 @@
+.photo-grid__item {
+  width: 100%;
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+}
+*/
