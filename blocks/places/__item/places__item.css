@@ -12,15 +12,6 @@
   }
 }
 
-/*
-@media screen and (max-width: 984px) {
-  .places__item {
-    margin: 0 0 72px;
-  }
-}
-
-*/
-
 @media screen and (max-width: 768px) {
   .places__item {
     margin: 0 0 48px;

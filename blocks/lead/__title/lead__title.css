@@ -10,8 +10,17 @@
   padding-bottom: 32px;
 }
 
+@media screen and (max-width: 1280px) {
+  .lead__title {
+    padding-top: 30.89px;
+    width: -webkit-calc(100% - 48px);
+    width: -moz-calc(100% - 48px);
+    width: calc(100% - 48px);
+  }
+}
+
 /* confirm width px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .lead__title {
     font-Size: 40px;
     line-height: 44px;
