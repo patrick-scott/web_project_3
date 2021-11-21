@@ -1,5 +1,8 @@
 .intro__quote-author {
   text-align: right;
+  padding-top: 10px;
+  padding-bottom: 32px;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

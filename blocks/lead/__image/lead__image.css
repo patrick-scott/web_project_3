@@ -8,13 +8,13 @@
 @media screen and (max-width: 1280px) {
   .lead__image {
     max-width: 100%;
+    padding-bottom: 88px;
   }
 }
 
-/*update this to 320*/
 @media screen and (max-width: 768px) {
   .lead__image {
     max-width: 100%;
-    padding-bottom: 88px;
+    padding-bottom: 64px;
   }
 }
