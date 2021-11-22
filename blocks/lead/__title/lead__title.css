@@ -6,13 +6,12 @@
   line-height: 100px;
   max-width: 793px;
   margin: auto;
-  padding-top: 71px;
+  padding-top: 57px;
   padding-bottom: 32px;
 }
 
 @media screen and (max-width: 1280px) {
   .lead__title {
-    padding-top: 30.89px;
     width: -webkit-calc(100% - 48px);
     width: -moz-calc(100% - 48px);
     width: calc(100% - 48px);
@@ -24,7 +23,7 @@
   .lead__title {
     font-Size: 40px;
     line-height: 44px;
-    padding-top: 30.89px;
+    padding-top: calc(50.89px - 20px);
   }
 }
 
