@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__artist {
     align-self: auto;
     margin: 0 16px;

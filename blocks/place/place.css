@@ -1,5 +1,4 @@
 .place {
-  font-family: "Inter", Arial, sans-serif;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
@@ -7,19 +6,18 @@
     "title artist"
     "image text"
     "button text";
+  margin: 0 auto 80px;
 }
-
 
 @media screen and (max-width: 1280px) {
   .place {
-
     grid-template-columns: minmax(200px, 1fr) 1fr;
+    width: calc(100% - 48px);
+    margin-bottom: 72px;
   }
 }
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .place {
     grid-template-areas:
       "title"
@@ -30,6 +28,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 32px;
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
 
+.place:last-of-type {
+  margin-bottom: 0;
+}
