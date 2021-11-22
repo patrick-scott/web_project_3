@@ -21,7 +21,7 @@
 /* confirm width px */
 @media screen and (max-width: 650px) {
   .lead__title {
-    font-Size: 40px;
+    font-size: 40px;
     line-height: 44px;
     padding-top: calc(50.89px - 20px);
   }
