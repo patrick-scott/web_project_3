@@ -1,4 +1,5 @@
 .place__button {
+  font-family: "Inter-SemiBold";
   grid-area: button;
   background: #0278fe;
   border: none;

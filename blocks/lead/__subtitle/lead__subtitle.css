@@ -8,16 +8,11 @@
   padding-bottom: 64px;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    font-size: 20px;
-    line-height: 1.25;
-    padding-bottom: 36px;
-  }
-}
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: 16px;
+    line-height: 1.25;
+    padding-bottom: 36px;
+    max-width: calc(100% - 32px);
   }
 }

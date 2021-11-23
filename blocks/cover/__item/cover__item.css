@@ -1,17 +1,10 @@
 .cover__item {
   min-height: 740px;
   text-decoration: none;
-  /*
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-*/
   background-image: url("../../../images/__footer-background.jpg");
-  /*
-  -webkit-background-size: cover;
-  */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,8 +41,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__item {
     min-height: 254px;
+    align-items: center;
   }
 }

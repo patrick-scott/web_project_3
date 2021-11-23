@@ -1,14 +1,8 @@
 .intro__quote-author {
   text-align: right;
+  font-size: 24px;
+  line-height: 1.42;
   padding-top: 10px;
   padding-bottom: 32px;
   margin: 0;
 }
-
-@media screen and (max-width: 768px) {
-  .intro__quote-author {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-
