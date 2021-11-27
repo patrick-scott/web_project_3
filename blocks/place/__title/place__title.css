@@ -1,8 +1,8 @@
 .place__title {
+  font-family: 'Inter-Black';
   grid-area: title;
   align-self: end;
   margin: 0;
-  font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
 }
