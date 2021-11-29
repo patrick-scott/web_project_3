@@ -1,5 +1,5 @@
 .place__title {
-  font-family: 'Inter-Black';
+  font-weight: 900;
   grid-area: title;
   align-self: end;
   margin: 0;
